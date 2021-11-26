@@ -1,0 +1,29 @@
+.homepage {
+  background-position: 50% 15%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  overflow: hidden auto;
+  max-height: 100%;
+  background-image: url(https://images.unsplash.com/photo-1576913105965-1d0b6a19a482?ixid=MnwxMTAwMjh8MHwxfHJhbmRvbXx8fHx8fHx8fDE2MzcxNDczNzg&ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&fit=max&h=1080);
+  height: 100vh;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  padding: 36px 20px 100px;
+}
+label {
+  color: white !important;
+}
+#button {
+  width: 100%;
+  border-radius: 8px;
+  background-color: rgb(244, 78, 59);
+  color: rgb(255, 255, 255);
+  font-family: Poppins, sans-serif;
+  text-transform: none;
+  box-shadow: none;
+  font-size: 14px;
+  height: 48px;
+}
